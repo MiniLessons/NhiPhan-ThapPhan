@@ -6,7 +6,7 @@ function binaryToDecimal() {
 	}else{
 		if(/^[01]+$/.test(binary)){
 			var decimal = parseInt(binary, 2);
-			document.getElementById("result").innerHTML = "<center><label style='font-size:18px;'>The decimal number is</label></center><center><h3 class='text-primary'>"+decimal+"</h3></center>";
+			document.getElementById("result").innerHTML = "<center><label style='font-size:18px;'>SỐ THẬP PHÂN TƯƠNG ỨNG LÀ</label></center><center><h3 class='text-primary'>"+decimal+"</h3></center>";
 		}else{
 			alert("Please enter binary numbers");
 		}
