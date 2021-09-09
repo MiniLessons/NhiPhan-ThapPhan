@@ -14,6 +14,6 @@ function binaryToDecimal() {
 }
 
 function reset(){
-	document.getElementById("decimal").value = "";
-	document.getElementById("result").innerHTML = "";
+	document.getElementById('decimal').value = '';
+	document.getElementById('result').innerHTML = '';
 }
